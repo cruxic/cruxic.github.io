@@ -6,8 +6,15 @@
 	<meta name="viewport" content="width=device-width, initial-scale=1.0">
 	<title>Cruxic Playground</title>
 </head>
-<body>
+<body onload="document.getElementById('password').focus();">
 <h1>Cruxic Playground</h1>
+
+
+<form action="test-login.html" method="GET" style="margin-top: 3em">
+	<input type="password" name="password" id="password" placeholder="password"/>
+	<p>
+	<input type="submit" value="Test Login"/>
+</form>
 
 </body>
    
