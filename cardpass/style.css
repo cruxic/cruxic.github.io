@@ -1,0 +1,39 @@
+body {
+	font-family: sans-serif;
+}
+
+table {
+	font-family: monospace;
+}
+
+td.horzCoord, td.vertCoord {
+	font-weight: bold;
+}
+
+td.vertCoord {
+	text-align: center;
+	padding-left: 4px;
+	padding-right: 4px;
+}
+
+td.horzCoord {
+	text-align: center;
+}
+
+td.randCell {
+	letter-spacing: 2px;
+	padding-left: 4px;
+	padding-right: 4px;
+	padding-top: 3px;
+	padding-bottom: 3px;
+}
+
+tr.even {
+	background-color: white;
+}
+
+tr.odd {
+	background-color: #e0e0e0;
+}
+
+

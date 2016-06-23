@@ -1,0 +1,3 @@
+var CARD_GRID_W = 8;
+var CARD_GRID_H = 8;
+var CARD_CHARS_PER_CELL = 3;
