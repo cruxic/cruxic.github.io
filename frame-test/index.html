@@ -1,0 +1,23 @@
+<!DOCTYPE html>
+<html>
+<head>
+	<meta charset="utf-8" />
+	<meta http-equiv="Content-Type" content="text/html; charset=UTF-8" />
+	<meta name="viewport" content="width=device-width, initial-scale=1.0">
+	<title>Parent frame</title>
+</head>
+<body onload="document.getElementById('password').focus();">
+<h1>Parent frame</h1>
+
+<form action="test-login.html" method="GET" style="margin-top: 3em">
+	<input type="text" name="username" id="user" placeholder="user"/>
+	<input type="password" name="password" id="password" placeholder="password"/>
+	<p>
+	<input type="submit" value="Test Login"/>
+</form>
+
+<h2>iframe:</h2><br/>
+<iframe style="border: 2px solid black; width:95%; height:20em;" src="https://www.roblox.com/Login/iFrameLogin.aspx"></iframe>
+
+</body>
+   
